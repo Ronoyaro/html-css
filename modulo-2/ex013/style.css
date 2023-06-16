@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+.estilo { 
+    color: whitesmoke
+}
+
+.titulo{
+width: 40px;
+}
+
+.itens:hover{
+    color: red;
+}
+
+.itens > .camiseta {
+    display: none;
+    color: white;
+}
+
+.itens:hover > .camiseta {
+    display: block;
+}
+main {
+    height: 200px;
+    background-image: linear-gradient(45deg, blue, white);
+    background-attachment: fixed;
+    }
+
+.lista{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lista:visited{
+    text-decoration: none;
+}
+
+.lista:active{
+    color: red;
+}
+
+.lista:hover{
+    text-decoration: underline;
+}
+
+a::after {
+    content: ' [link]';
+    color: darkgrey;
+}
