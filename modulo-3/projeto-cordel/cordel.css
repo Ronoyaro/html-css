@@ -51,6 +51,12 @@ section {
     padding-left: 30px;
     font-size: 1.5em;
 }
+section p {
+    padding-bottom: 1em;
+}
+
+/* Classe da imagem*/
+
 .normal {
     background-color: white;
     color: black;
@@ -59,24 +65,33 @@ section {
 .imagem {
     background-color: rgba(0, 0, 0, 0.486);
     color: white;
+    box-shadow: inset 5px 6px 13px 0px rgba(0, 0, 0, 0.425);
+    background-size: cover;
+    background-attachment: fixed;
     height: 80vh;
 }
-#um {
-    
-    background-image: url(imagens/background001.jpg);
-    background-position: center center;
-    background-attachment: fixed;
-}
-#dois {
-    background-image: url(imagens/background002.jpg);
-    background-position: center center;
-    background-attachment: fixed;
-}
 .imagem p {
-    background-color: rgba(0, 0, 0, 0.253);
+    background-color: rgba(0, 0, 0, 0.212);
     display: inline-block;
     padding: 5px;
 }
+
+/*Minhas imagens aqui*/
+
+#um { 
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+    
+}
+
+#dois {
+    background-image: url('imagens/background002.jpg');
+    background-position: right center;
+    
+}
+
+
+
 
 
 footer {
