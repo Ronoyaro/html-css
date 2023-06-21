@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudos de iframe</title>
+    <style>
+        body { 
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        
+        h1,  li{
+          text-align: center;
+
+            
+        }
+        
+        iframe {
+            width: 97vw;
+            height: 400px; 
+            border: 2px solid black; 
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Testando iframe</h1>
+
+    <ul type="none">
+        <a href="pagina001.html" target="frame">
+            <li>Primeira page</li>
+        </a>
+        <a href="pagina002.html" target="frame">
+            <li>Segunda page</li>
+        </a>
+        <a href="pagina003.html" target="frame">
+            <li>Terceira page</li>
+        </a>
+    </ul>
+
+
+    <iframe src="" frameborder="0" scrolling="yes" name="frame"></iframe>
+</body>
+</html>
