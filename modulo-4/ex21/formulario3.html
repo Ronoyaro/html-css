@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+      
+      ul {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2em;
+      }
+      li {
+        padding-top: 10px;
+
+      }
+    </style>
+</head>
+<body>
+    <h1>Formulários</h1>
+
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <ul type="none">
+            <li>
+                <label for="iuser">Nome:</label>
+                <input type="text" name="user" id="iuser" required maxlength="10" minlength="5" autocomplete="name">
+            </li>
+            <li>
+                <label for="imedia">Média:</label>
+                <input type="number" name="media" id="imedia" min="0" max="10" step="0.1" required>
+            </li>
+            <li>
+                <label for="idia">Data:</label>
+                <input type="date" name="dia" id="idia">
+            </li>
+            <li>
+                <label for="ihora">Hora:</label>
+                <input type="time" name="Hora" id="ihora">
+            </li>
+            
+            <li>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+
+        </li>
+        </ul>
+    </form>
+</body>
+</html>
