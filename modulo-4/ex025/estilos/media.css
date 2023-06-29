@@ -9,6 +9,7 @@
     
     #login {
         width: 80vw;
+        height: 250px;
     }
     
     #imagem {
@@ -20,6 +21,8 @@
         float: right;
         width: 60%;
     }
+
+ 
 }
 
 @media screen and (min-width: 992px) {
@@ -29,9 +32,11 @@
     }
     
     #login {
-      width: 950px;
+        width: 700px;
+        height: 300px;
 
     }
+    
     #imagem {
         float: right;
         width: 50%;
@@ -42,4 +47,7 @@
         float: left;
         width: 50%;
     }
+ 
 }
+
+

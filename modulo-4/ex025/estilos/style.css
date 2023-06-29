@@ -38,18 +38,17 @@ main {
 }
 
 #imagem {
-    background-color: var(--lilas);
+    height: 200px;
+    display: block;
     background-image: url(../imagens/pexels-daisa-tj-7092446.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 200px;
-    display: block;
 }
 
 #formulario {
     display: block;
-    padding: 10px;
+    padding: 5px;
 }
 
 #formulario h1 {
@@ -59,3 +58,73 @@ main {
 #formulario p {
     text-align: center;
 }
+
+.campo {
+    background-color: #5f2c82;
+    border-radius: 7px;
+    height: 40px;
+    margin: 5px 0px;
+}
+
+label {
+    display: none;
+}
+.icon {
+   color: white; 
+   
+   width: 40px;
+   padding: 10px;
+
+}
+
+.campo > input {
+    background-color: #63dad6;
+    font-size: 1em;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    width: calc(100% - 40px);
+    transform: translateY(-8px);
+
+}
+
+input[type=submit] {
+    display: block; 
+    width: 100%;
+    font-size: 1em;
+    height: 35px;
+    background-color: var(--verde);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #33706e;
+    color: white;
+}
+
+.botao {
+    display: block;
+    background-color: #ffffff;
+    text-decoration: none;
+    color: #33706e;
+    border-radius: 5px;
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    margin-top: 5px;
+    border: 1px solid #49a09d;
+    padding: 7px, 7px;
+    
+}
+
+.botao:hover {
+    background-color: #33706e;
+    color: white;
+}
+.email{ 
+    transform: translateY(6px);
+}
+
